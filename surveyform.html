@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coWIN</title>
+    <link rel="shortcut icon" type="img/png" href="images/fv.png">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1 id ="head">COVID-19 VACCINATION SURVEY FORM.</h1>
+        <h2 id ="subhead">Enter the following details below.</h2>
+    </div>
+    <form>
+        <div id =content>
+            <label>Name</label> <br><br>
+            <input type= "text" name="name" placeholder="Enter your name" class="box"><br><br>
+            <label">D.O.B</label><br><br>
+            <input type= "date" id="dob" name="dob"> <input type="submit" id="submit"><br><br>
+            <label">Mobile number</label> <br><br>
+            <input type= "number" name="mobile number" placeholder="Enter your mobile number" class="box"><br><br>
+            <label">District</label> <br><br>
+            <input type= "text" name="District" placeholder="Enter your district" class="box"><br><br>
+            <label">Pincode</label> <br><br>
+            <input type= "number" name="pincode" placeholder="Enter your pincode" class="box"><br><br>
+            <label">State</label> <br><br>
+            <input type= "text" name="state" placeholder="Enter your state" class="box"><br><br>
+            <label>Date of appointment</label><br><br>
+            <input type="date" id="doa" name="doa"> <input type="submit" id="sb1" name ="confirm"><br><br>
+            <label>Type of vaccine</label>
+            <div id ="option">
+                <select>
+                    <option name="select your vaccine">select your vaccine</option>
+                    <option value="covid-shield">covid-shield 1st dose</option>
+                    <option value="covid-shield">covid-shield 2nd dose</option>
+                    <option value="covaxin">covaxin 1st dose</option>
+                    <option value="covaxin">covaxin 2nd dose</option>
+                    <option value="sputnik">sputnik</option>
+                </select>
+            </div>
+            <button><h3>Submit</h3></button>  
+        </div>
+    </form>
+    
+</body>
+</html>
